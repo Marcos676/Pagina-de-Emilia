@@ -17,10 +17,23 @@ body {
     text-align: right;
     padding: 20px 0;
   }
+  p.header a{
+    transition: all .7s;
+  }
+  p.header a:hover{
+    font-weight: bold;
+    font-size: 27px;
+  }
   
   p.redes {
     text-align: right;
   }
+  p.redes a{
+    transition: all .7s;
+}
+p.redes a:hover{
+    font-size: 28px;
+}
   h1 {
     font-family: 'Raleway';
     font-size: 80px;
@@ -53,4 +66,11 @@ body {
 
   a.go-top {
       color: gray;
+      transition: all 0.7s;
+      text-decoration: underline transparent;    
   }
+  a.go-top:hover{
+    color: black;
+    text-decoration: underline;
+  }
+  

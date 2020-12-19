@@ -12,10 +12,25 @@ body {
     text-align: right;
     padding: 20px 0;
   }
+
+  p.header a{
+    transition: all .6s;
+  }
+  p.header a:hover{
+    font-weight: bold;
+    font-size: 27px;
+  }
   
   p.redes {
     text-align: right;
   }
+
+  p.redes a{
+    transition: all .6s;
+}
+p.redes a:hover{
+    font-size: 28px;
+}
 
   h1 {
       font-size: 70px;
@@ -43,4 +58,11 @@ body {
        font-size: 18px;
        margin-bottom: 45px;
    }
+
+   ul li a {
+     transition: all .5s;
+   }
+   ul li a:hover {
+    font-size: 20px;
+  }
    
